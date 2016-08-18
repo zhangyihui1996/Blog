@@ -12,7 +12,7 @@ public class BookTest {
 	
 	@Before
 	public void setUp() throws Exception {
-        System.out.println("测试开始！");
+        System.out.println("testing start");
         book = new Book();
         System.out.println("book对象被初始化！");
 	}
@@ -21,7 +21,7 @@ public class BookTest {
 	public void tearDown() throws Exception {
 	    System.out.println("book对象将被清理！");
         book = null;
-        System.out.println("测试结束！");
+        System.out.println("Testing finish");
 	}
 
 	   @Test
