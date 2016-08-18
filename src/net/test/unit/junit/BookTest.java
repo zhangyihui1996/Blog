@@ -26,16 +26,14 @@ public class BookTest {
 
 	   @Test
        public void caseId() {
-           book.setId("001"); //设置id属性的值为001
-           //使用Assert查看id属性的值是否为001
+           book.setId("001"); 
            assertEquals("001", book.getId());
            System.out.println("id be test");
        }
    
        @Test
        public void caseName() {
-           book.setName("ASP"); //设置name属性的值为ASP
-           //使用Assert查看name属性的值是否为JSP，这是个必然出现错误的测试
+           book.setName("ASP"); 
           assertEquals("ASP", book.getName());
            System.out.println("name be test");
        }
